@@ -6,7 +6,7 @@
 
 <div class="container">
     <div class="card my-card">
-        <img src="{{$selected_comic->thumb}}" class="card-img-top">
+        <img src="{{$selected_comic->thumb}}" style="max-height:400px" class="card-img-top">
         <div class="card-body">
             <h5 class="card-title">{{$selected_comic->title}}</h5>
             <p class="card-text">{{$selected_comic->description}}</p>
