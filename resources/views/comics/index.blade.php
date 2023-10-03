@@ -4,7 +4,14 @@
 
 <h1 class="index-title text-center mb-5 mt-5">COMICS LIST</h1>
 
+
 <div class="container">
+    <div class="text-end mb-4">
+        <a href="{{route('comics.create')}}">
+            <button class="btn btn-primary">Add Comics +
+            </button>
+        </a>
+    </div>
     <div class="row row-cols-4 gy-4">
         @foreach ($comics as $singleComic )
         <div class="col">
