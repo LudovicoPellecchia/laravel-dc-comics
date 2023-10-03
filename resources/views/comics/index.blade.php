@@ -13,6 +13,7 @@
                 <div class="card-body">
                     <h5 class="card-title">{{$singleComic->title}}</h5>
                     <p class="card-text">{{substr($singleComic->description, 0, 150)}}...</p>
+                    <h5 class="text-center">{{$singleComic->price}}$</h5>
                     <a href="{{route('comics.show', $singleComic->id)}}" class="btn btn-primary">View More</a>
                 </div>
             </div>
