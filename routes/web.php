@@ -25,3 +25,10 @@ Route::get("/", [ComicController::class, "index"])->name("comics.index");
 Route::get("/{id}", [ComicController::class, "show"])->name("comics.show");
 
 
+//UPDATE
+Route::get("/{id}/edit", [ComicController::class, "edit"])->name("comics.edit");
+Route::put("/{id}", [ComicController::class, "update"])->name("comics.update");
+
+//DESTROY
+Route::delete("/{id}", [ComicController::class, "destroy"])->name("comics.destroy");
+
