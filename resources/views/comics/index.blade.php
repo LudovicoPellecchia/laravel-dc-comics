@@ -27,7 +27,7 @@
         </div>
         @endforeach
 
-
+<h2>LOOL</h2>
     </div>
 </div>
 @endsection
